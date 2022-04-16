@@ -250,7 +250,7 @@ private:
 public:
 	void print()
 	{
-		for (int i = str; i < end; i++)
+		for (int i = first; i < last; i++)
 		{
 			cout << queueArray[i] << " ";
 		}
